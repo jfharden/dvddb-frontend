@@ -2,7 +2,7 @@
 
 set -e
 
-SSM_PREFIX=/php-service
+SSM_PREFIX=/dvddb
 
 echo "Loading secrets from SSM"
 
