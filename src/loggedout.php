@@ -7,14 +7,20 @@
     <title>
         Logged out!
     </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1>Logged out</h1>
-<p>You have been logged out</p>
-<p><a href="/">Login again</a></p>
+<div>
+    <h1>DVD DB</h1>
+</div>
+<div class="choice">
+	<h2>Logged out</h2>
+	<div style='clear:both; margin-top: 0.5em; width: 100%; text-align: center'>
+			<a href='/' style='color: black;'>Login</a>
+	</div>
+</div>
 <div class="footer">
-    <p>&copy; Copyright Jonathan Harden 2020</p>
-</p>
+    &copy; Copyright Jonathan Harden 2020
 </div>
 </body>
 </html>

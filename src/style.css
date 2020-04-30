@@ -1,0 +1,121 @@
+body {
+    background-color: LightGrey;
+}
+
+h1 {
+    width: 98%;
+    margin: auto;
+    background-color: #444444;
+    color: white;
+    font-family: serif;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    width: 98%;
+    margin: 0 auto 0.4em;
+    color: #404040;
+    font-family: serif;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1em;
+}
+
+div.error {
+    width: 95%;
+    color: red;
+    font-weight: bold;
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 0.5em;
+    text-align: center;
+    font-size: small;
+    margin: 1em auto;
+}
+
+div.success {
+    width: 95%;
+    color: LightGreen;
+    font-weight: bold;
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 0.5em;
+    text-align: center;
+    font-size: small;
+    margin: 1em auto;
+}
+
+div.or {
+    width: 10%;
+    margin: 0.3em auto;
+    color: #444444;
+    text-align: center;
+    font-size: small;
+}
+
+img.poster {
+    width: 100px;
+/*    height: 25%; */
+}
+
+div.choice {
+    width: 95%;
+    background-color: #aaaaaa;
+    border-radius: 15px;
+    margin: 0.3em auto;
+    padding: 0.5em;
+    color: Black;;
+}
+
+div.footer {
+    width: 98%;
+    margin: auto;
+    background-color: #444444;
+    color: white;
+    font-family: serif;
+    font-size: small;
+    border-radius: 15px;
+    padding: 0.5em 0; 
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+table.imdbdata {
+    border-collapse: collapse;
+    border: solid black 1px;
+    font-size: small;
+    width: 100%;
+    margin: auto;
+}
+
+.imdbdata th, tr, td {
+    border-collapse: collapse;
+    border: solid black 1px;
+    padding: 0.2em;
+    text-align: center;
+}
+
+.imdbdata th {
+    background-color: #444444;
+    color: white;
+}
+
+.imdbdata tr, td {
+    background-color: Grey;
+}
+
+.imdbdata a {
+    color: black;
+}
+
+.imdbdata .titleColumn {
+    text-align: left
+}
+
+.year {
+    width: 3em;
+}

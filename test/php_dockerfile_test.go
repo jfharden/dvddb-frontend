@@ -174,7 +174,7 @@ func validateAcceptsOpenIDAuth(t *testing.T, options *RunTestOptions) {
 
 	resp, err = openIDHelper.GetProtectedPage(url)
 	assert.Equal(t, 200, resp.StatusCode, "Couldn't not get protected page after login")
-	assert.Contains(t, string(resp.Body), "Hello, world!", "Protected page did not have the right content after login")
+	assert.Contains(t, string(resp.Body), "Show Advanced Options", "Protected page did not have the right content after login")
 }
 
 func validateCompletesOpenIDLogout(t *testing.T, options *RunTestOptions) {
